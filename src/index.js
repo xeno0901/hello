@@ -3,9 +3,25 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+/*function tick() {
+  console.log(this);
+  const element = (
+    <div>
+      <h1>Hello world!</h1>
+      <h2>it is {new Date().toLocaleTimeString()}</h2>
+    </div>
+  );
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: http://bit.ly/CRA-PWA
-//serviceWorker.unregister();
+  ReactDOM.render(element, document.getElementById('root'));
+}
+
+const Timer = setInterval(tick, 1000);
+
+const Tlog = setTimeout(function() {
+  clearInterval(Timer);
+}, 5000);
+
+console.log(Timer, Tlog);
+*/
+
+ReactDOM.render(<App />, document.getElementById('root'));
